@@ -1,18 +1,21 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <html2canvas></html2canvas>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import html2canvas from "@/components/html2canvas.vue";
+// import axios from "axios";
 export default {
   name: "Home",
-  components: {
-    HelloWorld,
+  components: { html2canvas },
+  data() {
+    return {};
   },
+  mounted() {},
+  methods: {},
+  watch: {}
 };
 </script>
